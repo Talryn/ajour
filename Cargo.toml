@@ -27,7 +27,7 @@ iced = { version = "0.3.0", default-features = false }
 iced_futures = { version = "0.3.0", features = ["async-std"] }
 iced_native = { version = "0.4.0" }
 async-std = "1.6.2"
-isahc = { version = "0.9.6", features = ["json"] }
+isahc = { git = "https://github.com/sagebind/isahc", branch = "master", features = ["json", "rustls-tls"] }
 image = "0.23.8"
 opener = "0.4.1"
 chrono = { version = "0.4", features = ['serde'] }
